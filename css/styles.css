@@ -164,12 +164,7 @@ header {
 ------------------------------------------------ */
 
 .education {
-    background: url(../img/pencil.jpg) no-repeat top right/cover;
-    padding-bottom: 100px;
-}
-
-.education article {
-    width: 60%;
+    background: url(../img/pencil.jpg) no-repeat top right/cover ;
 }
 
 /* Contact info
