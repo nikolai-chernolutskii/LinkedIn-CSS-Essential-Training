@@ -1,0 +1,44 @@
+@media screen and (min-width: 750px) {
+    header, footer {
+        text-align: center;
+    }
+
+    .project-item img {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .job-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
+
+    .contact-list {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 749px) {
+    h1 {
+        font-size: 75px;
+    }
+
+    .contact-list a {
+        padding-left: 0;
+    }
+
+    .education article {
+        min-width: 280px;
+    }
+
+    @media screen and (max-width: 475px) {
+        .education {
+            background-position-x: center;
+        } 
+    };
+        
+    }
+}
