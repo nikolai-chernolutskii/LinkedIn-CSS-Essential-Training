@@ -146,6 +146,10 @@ header {
     column-gap: 20px;
 }
 
+.job-details>h3, .job-summary>p {
+    margin-top: 15px;
+}
+
 /* .job-item {
     display: flex;
     justify-content: space-between;
