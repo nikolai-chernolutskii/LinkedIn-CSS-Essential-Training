@@ -167,6 +167,10 @@ header {
     background: url(../img/pencil.jpg) no-repeat top right/cover ;
 }
 
+.education article {
+    width: 60%;
+}
+
 /* Contact info
 ------------------------------------------------ */
 footer {
