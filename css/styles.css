@@ -28,10 +28,6 @@ body {
     line-height: 1.5;
 }
 
-header, footer {
-    text-align: center;
-}
-
 img {
     width: 300px;
 }
@@ -53,7 +49,6 @@ h1, h2 {
 
 h1 {
     font-size: 100px;
-
 }
 
 h2 {
@@ -125,11 +120,6 @@ header {
     display: flow-root;
 }
 
-.project-item img {
-    float: left;
-    margin-right: 20px;
-}
-
 .project-item h3 {
     margin-top: 0;
 }
@@ -138,12 +128,6 @@ header {
 ------------------------------------------------ */
 .work-experience {
     background-color: #A1C6D7;
-}
-
-.job-item {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
 }
 
 .job-details>h3, .job-summary>p {
@@ -184,8 +168,6 @@ footer {
 .contact-list {
     list-style-type: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
 .contact-list a {
